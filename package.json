@@ -1,0 +1,17 @@
+{
+  "name": "heel",
+  "version": "1.0.0",
+  "description": "A SOCKS5 Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node test.ts",
+    "start": "ts-node index.ts"
+  },
+  "author": "Jens Krogsgaard",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/node": "^7.0.4",
+    "chai": "^3.5.0"
+  }
+}

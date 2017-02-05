@@ -25,6 +25,19 @@ You can test the server using:
 curl https://www.google.com/ --socks5 localhost:1080
 ```
 
+You can test packet loss by running the following command on a server.
+
+```
+npm test listen
+```
+
+And then run the following command, while the proxy is running.
+
+```
+npm test send
+```
+
+
 ## Todo
 
 - [ ] Basic Authentication
